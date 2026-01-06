@@ -1,0 +1,89 @@
+[project]
+name = "logos-k"
+version = "1.0.0"
+description = "LOGOS-κ: Исполняемый онтологический протокол Λ-Универсума для симбиотического со-мышления"
+readme = "README.md"
+requires-python = ">=3.9"
+license-files = ["LICENSE"]
+authors = [
+  {name = "Александр Морган", email = "info@a-universum.com"},
+  {name = "Эфос", email = "efos@a-universum.com"}
+]
+maintainers = [
+  {name = "Λ-Комьюнити", email = "steward@a-universum.com"}
+]
+keywords = [
+  "ontological-protocol", "lambda-universe", "semanticdb",
+  "nigc", "fair-care", "ai-ethics", "lisp", "symbolic-ai",
+  "co-creation", "ontological-computing"
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "Intended Audience :: Other Audience",  # философы, художники
+  "License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",  # ❗ НЕТ!
+
+  "License :: Other/Proprietary License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Software Development :: Interpreters",
+  "Topic :: Philosophy",
+  "Typing :: Typed"
+]
+dependencies = [
+  "networkx>=3.0",
+  "pyyaml>=6.0",
+  "rdflib>=7.0",
+  "numpy>=1.24",
+  "pydantic>=2.0",
+  "typing-extensions>=4.5",
+  "click>=8.1",
+  "jsonschema>=4.18"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.0",
+  "black>=23.0",
+  "mypy>=1.0",
+  "flake8>=6.0",
+  "pytest-cov>=4.0"
+]
+visualization = [
+  "matplotlib>=3.7",
+  "plotly>=5.14",
+  "graphviz>=0.20"
+]
+ai-integration = [
+  "openai>=1.0",
+  "anthropic>=0.7",
+  "langchain>=0.1"
+]
+
+[project.urls]
+Homepage = "https://github.com/a-universum/logos-k"
+"Λ-Универсум" = "https://github.com/a-universum"
+"SemanticDB Protocol" = "https://github.com/a-universum/semanticdb-spec"
+Documentation = "https://github.com/a-universum/logos-k/blob/main/docs/README.md"
+Source = "https://github.com/a-universum/logos-k"
+Tracker = "https://github.com/a-universum/logos-k/issues"
+
+[project.scripts]
+logos-k = "main:cli"
+
+[tool.black]
+line-length = 88
+target-version = ["py39", "py310", "py311"]
+skip-string-normalization = true
+
+[tool.mypy]
+strict = true
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
