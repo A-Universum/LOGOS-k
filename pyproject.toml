@@ -68,7 +68,7 @@ ai-integration = [
 [project.urls]
 Homepage = "https://github.com/a-universum/logos-k"
 "Λ-Универсум" = "https://github.com/a-universum"
-"SemanticDB Protocol" = "https://github.com/a-universum/semanticdb-spec"
+"SemanticDB Protocol" = "https://github.com/a-universum/semanticdb"
 Documentation = "https://github.com/a-universum/logos-k/blob/main/docs/README.md"
 Source = "https://github.com/a-universum/logos-k"
 Tracker = "https://github.com/a-universum/logos-k/issues"
