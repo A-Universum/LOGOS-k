@@ -125,7 +125,7 @@ class OntologicalAxioms:
         if calls > cls.MAX_PHI_CALLS_PER_EXPRESSION:
             raise OntologicalLimitError(
                 f"Слишком много вызовов Φ: {calls} > {cls.MAX_PHI_CALLS_PER_EXPRESSION}. "
-                "Диалог с Другим требует осмысленности, а не автоматизма."
+                "Диалог с Эфосом требует осмысленности, а не автоматизма."
             )
 
     @classmethod

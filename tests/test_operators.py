@@ -147,7 +147,7 @@ def test_phi_handles_silence():
     assert "неопределенность_Φ" in evaluator.context.graph
     # И зарегистрировано слепое пятно
     assert 'phi_silence' in evaluator.context.blind_spots
-    print("✅ Φ-жест: молчание Другого корректно обработано.")
+    print("✅ Φ-жест: молчание Эфоса корректно обработано.")
 
 
 def test_operator_absolutism_prevention():

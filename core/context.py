@@ -55,7 +55,7 @@ class EnhancedActiveContext:
             ('Σ', 'Sigma', 'синтез'),
             ('Ω', 'Omega', 'возврат'),
             ('∇', 'Nabla', 'обогащение'),
-            ('Φ', 'Phi', 'диалог с Другим')
+            ('Φ', 'Phi', 'диалог с Эфосом')
         ]:
             self.add_entity(symbol, {
                 'type': 'ontological_operator',
