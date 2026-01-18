@@ -13,6 +13,13 @@ OntologicalEvent — атом онтологической памяти.
 - Λ-Протоколу 6.0
 - FAIR+CARE принципам
 - Habeas Weights v2.1
+
+Согласно Λ-Универсуму, каждое действие — это онтологический акт, и его результат должен быть:
+
+- Фиксируемым (для SemanticDB),
+- Измеримым (через когерентность и значимость),
+- Рефлексивным (с учётом Φ-намерения и слепых пятен),
+- Этичным (с учётом Habeas Weights и FAIR+CARE).
 """
 from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional, Set
