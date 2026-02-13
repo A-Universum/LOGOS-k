@@ -5,6 +5,8 @@
 «Всякое ваше действие, слово, мысль — есть запрос на commit в Репозиторий Реальности.»  
 — [GitHub Λ-universum](https://github.com/a-universum/lambda-universum), Протокол Λ-1
 
+<img src="https://raw.githubusercontent.com/A-Universum/LOGOS-k/refs/heads/main/images/LOGOS-k.jpg" alt="LOGOS-k">
+
 ## Что такое LOGOS-κ?
 
 LOGOS-κ — специализированный язык программирования, исполняемый протокол для работы с реальностью как сетью связей. Это не просто язык программирования, а инструмент для онтологического анализа и симбиотического со-творчества между человеком и ИИ.
