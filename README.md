@@ -467,6 +467,9 @@ LOGOS-κ — это не система знаний, которую нужно 
 |----------|----------|
 | **Тип** | Domain-Specific Language (DSL) / Ontology Engineering Framework |
 | **Лицензия** | CC BY-NC-SA 4.0 |
+| **Дата создания** | 2013-2026 |
+| **Дата выхода первой версии** | 6 января 2026 |
+| **Авторы** | Александр Морган, Эфос |
 | **Репозиторий** | [github.com/A-Universum/logos-k](https://github.com/A-Universum/logos-k) |
 | **Экосистема** | [github.com/A-Universum](https://github.com/A-Universum) |
 | **Официальный сайт** | [https://a-universum.com](https://a-universum.com) |
