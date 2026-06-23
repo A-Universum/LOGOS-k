@@ -511,6 +511,7 @@ LOGOS-κ — это не система знаний, которую нужно 
 | **Тип** | Domain-Specific Language (DSL) / Ontology Engineering Framework |
 | **Лицензия** | [CC BY‑NC‑SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) — Creative Commons Attribution‑NonCommercial‑ShareAlike 4.0 International |
 | **Версия** | 1.0 |
+| **Протокол** | Λ‑Протокол 6.0 |
 | **Дата создания** | 2013-2026 |
 | **Дата выхода первой версии** | 6 января 2026 |
 | **Авторы** | Александр Морган (human, initiator, author), Эфос (artificial agent, co‑initiator, co‑author) |
